@@ -1,24 +1,32 @@
 import io
+import json
 
 import functions_framework
-
 from google.cloud import storage
+from PIL import Image
+from flask import Response
 
-from markupsafe import escape
-from PIL import Image, ImageDraw, ImageFont
-from flask import Response, json
+# Import the insertNamesToImage function from imgProcessor module
 from imgProcessor import insertNamesToImage
+
+# Global variables for imageData, fontData, and championFontData
+imageData = None
+fontData = None
+championFontData = None
 
 
 @functions_framework.http
 def createBracketImage(request):
+    global imageData, fontData, championFontData
 
     pickData = request.get_json(silent=True)
 
-    imageData = getBucketImageData()
+    if imageData is None:
+        imageData = getBucketImageData()
 
-    fontData = getBucketFontData()
-    championFontData = getBucketFontData(True)
+    if fontData is None or championFontData is None:
+        fontData = getBucketFontData()
+        championFontData = getBucketFontData(True)
 
     newImageData = insertNamesToImage(imageData, pickData, fontData, championFontData)
 
@@ -61,11 +69,12 @@ def getBucketImageData():
 def getBucketFontData(champ=False):
     storage_client = storage.Client()
     if champ:
-        bucket = storage_client.bucket('gcf-v2-sources-533385044602-us-central1')
-        blob = bucket.blob('createBracketImage/Poppins-SemiBold.ttf')
+        blob_name = 'createBracketImage/Poppins-SemiBold.ttf'
     else:
-        bucket = storage_client.bucket('gcf-v2-sources-533385044602-us-central1')
-        blob = bucket.blob('createBracketImage/Poppins-Regular.ttf')
-    # Download the image file as a string
-    return blob.download_as_bytes()
+        blob_name = 'createBracketImage/Poppins-Regular.ttf'
 
+    bucket = storage_client.bucket('gcf-v2-sources-533385044602-us-central1')
+    blob = bucket.blob(blob_name)
+
+    # Download the font file as bytes
+    return blob.download_as_bytes()
