@@ -25,10 +25,10 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
             x_coord = 20
         elif region == 'MidWest':
             y_coord = 16
-            x_coord = 1765
+            x_coord = 1727
         elif region == 'West':
-            y_coord = 545
-            x_coord = 1765
+            y_coord = 550
+            x_coord = 1750
         elif region == 'championshipLoser':
             skipProcess = True
             # y_coord = 545
@@ -78,7 +78,7 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                     if lengthB > max_length:
                         max_length = lengthB
                     y_coord = 490
-                    x_coord = 1155
+                    x_coord = 1175
                     length = myFontLrg.getlength(match_up['teamA'])
                     I1.text((x_coord + max_length - length, y_coord), match_up['teamA'], font=myFontLrg,
                             fill=(0, 0, 0))
@@ -147,10 +147,6 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 28 + top
                     elif game_round['round'] == 2:
-                        if region == 'South' or region == 'East':
-                            x_coord = 235
-                        else:
-                            x_coord = 1590
                         if first:
                             if region == 'East' or region == 'West':
                                 y_coord = 577
@@ -158,6 +154,7 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                                 y_coord = 49
                             first = False
                         if region == 'South' or region == 'East':
+                            x_coord = 235
                             I1.text((x_coord, y_coord), match_up['teamA'], font=myFont, fill=(0, 0, 0))
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamA'])
                             y_coord += 28 + top
@@ -165,6 +162,10 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 28 + top + 66
                         else:
+                            if region == 'West':
+                                x_coord = 1570
+                            else:
+                                x_coord = 1605
                             length = myFont.getlength(match_up['teamA'])
                             I1.text((x_coord + max_length - length, y_coord), match_up['teamA'], font=myFont,
                                     fill=(0, 0, 0))
@@ -176,10 +177,6 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 28 + top + 66
                     elif game_round['round'] == 3:
-                        if region == 'South' or region == 'East':
-                            x_coord = 444
-                        else:
-                            x_coord = 1380
                         if first:
                             if region == 'East':
                                 y_coord = 650
@@ -191,6 +188,7 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                                 y_coord = 120
                             first = False
                         if region == 'South' or region == 'East':
+                            x_coord = 444
                             I1.text((x_coord, y_coord), match_up['teamA'], font=myFont, fill=(0, 0, 0))
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamA'])
                             y_coord += 28 + top
@@ -198,6 +196,11 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 230
                         else:
+                            if region == 'MidWest':
+                                x_coord = 1410
+                            else:
+                                x_coord = 1360
+
                             length = myFont.getlength(match_up['teamA'])
                             I1.text((x_coord + max_length - length, y_coord), match_up['teamA'], font=myFont,
                                     fill=(0, 0, 0))
@@ -209,10 +212,6 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 232
                     elif game_round['round'] == 4:
-                        if region == 'South' or region == 'East':
-                            x_coord = 633
-                        else:
-                            x_coord = 1190
                         if first:
                             if region == 'East' or region == 'West':
                                 y_coord = 777
@@ -220,6 +219,8 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                                 y_coord = 247
                             first = False
                         if region == 'South' or region == 'East':
+                            x_coord = 633
+
                             I1.text((x_coord, y_coord), match_up['teamA'], font=myFont, fill=(0, 0, 0))
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamA'])
                             y_coord += 28 + top
@@ -227,6 +228,10 @@ def insertNamesToImage(image_data, bracket_data, font_data, champion_font_data):
                             (left, top, right, bottom) = myFont.getbbox(match_up['teamB'])
                             y_coord += 230
                         else:
+                            if region == 'MidWest':
+                                x_coord = 1230
+                            else:
+                                x_coord = 1210
                             length = myFont.getlength(match_up['teamA'])
                             I1.text((x_coord + max_length - length, y_coord), match_up['teamA'], font=myFont,
                                     fill=(0, 0, 0))

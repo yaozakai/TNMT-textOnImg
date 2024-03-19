@@ -1,17 +1,17 @@
 {
   "pickData": {
-    "championshipLoser": "Houston",
-    "championshipWinner": "Florida",
+    "championshipLoser": "Duke",
+    "championshipWinner": "Purdue",
     "championshipScore": {
-        "teamAScore": "111",
-        "teamBScore": "66"
+        "teamAScore": "77",
+        "teamBScore": "80"
     },
     "finalFour": [
       {
         "round": 1,
         "games": [
-          {"gameId": 1, "teamASeedNum": "1", "teamA": "Houston", "teamBSeedNum": "16","teamB": "South Dakota St", "winner": "Houston"},
-          {"gameId": 2, "teamASeedNum": "8", "teamA": "Michgan St", "teamBSeedNum": "9", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"}
+          {"gameId": 1, "teamA": "Duke", "teamB": "UConn", "winner": "Duke"},
+          {"gameId": 2, "teamA": "Purdue", "teamB": "Alabama", "winner": "Purdue"}
         ]
       }
     ],
@@ -19,36 +19,36 @@
       {
         "round": 1,
         "games": [
-          {"gameId": 1, "teamASeedNum": "1", "teamA": "Houston", "teamBSeedNum": "16","teamB": "South Dakota St", "winner": "Houston"},
-          {"gameId": 2, "teamASeedNum": "8", "teamA": "Michgan St", "teamBSeedNum": "9", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"},
-          {"gameId": 3, "teamASeedNum": "5", "teamA": "Washington St", "teamBSeedNum": "12", "teamB": "McNeese St", "winner": "McNeese St"},
-          {"gameId": 4, "teamASeedNum": "4", "teamA": "Alabama", "teamBSeedNum": "13", "teamB": "Charleston", "winner": "Alabama"},
-          {"gameId": 5, "teamASeedNum": "6", "teamA": "Florida","teamBSeedNum": "11", "teamB": "South Florida", "winner": "Florida"},
-          {"gameId": 6, "teamASeedNum": "3", "teamA": "Creighton", "teamBSeedNum": "14", "teamB": "Oakland", "winner": "Oakland"},
-          {"gameId": 7, "teamASeedNum": "7", "teamA": "Dayton", "teamBSeedNum": "10", "teamB": "TCU", "winner": "TCU"},
-          {"gameId": 8, "teamASeedNum": "2", "teamA": "Duke", "teamBSeedNum": "15", "teamB": "Toledo", "winner": "Toledo"}
+          {"gameId": 1, "teamASeedNum": "1", "teamA": "Houston", "teamBSeedNum": "16","teamB": "Longwood", "winner": ""},
+          {"gameId": 2, "teamASeedNum": "8", "teamA": "Texas A&M", "teamBSeedNum": "9", "teamB": "Nebraska", "winner": ""},
+          {"gameId": 3, "teamASeedNum": "5", "teamA": "Wisconsin", "teamBSeedNum": "12", "teamB": "James Madison", "winner": ""},
+          {"gameId": 4, "teamASeedNum": "4", "teamA": "Duke", "teamBSeedNum": "13", "teamB": "Vermont", "winner": ""},
+          {"gameId": 5, "teamASeedNum": "6", "teamA": "Texas Tech","teamBSeedNum": "11", "teamB": "NC State", "winner": ""},
+          {"gameId": 6, "teamASeedNum": "3", "teamA": "Kentucky", "teamBSeedNum": "14", "teamB": "Oakland", "winner": ""},
+          {"gameId": 7, "teamASeedNum": "7", "teamA": "Florida", "teamBSeedNum": "10", "teamB": "Boise St/Colorado", "winner": ""},
+          {"gameId": 8, "teamASeedNum": "2", "teamA": "Marquette", "teamBSeedNum": "15", "teamB": "Western Ky", "winner": ""}
         ]
       },
       {
         "round": 2,
         "games": [
-          {"gameId": 9, "teamA": "Houston", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"},
-          {"gameId": 10, "teamA": "McNeese St", "teamB": "Alabama", "winner": "McNeese St"},
-          {"gameId": 11, "teamA": "Florida", "teamB": "Oakland", "winner": "Florida"},
-          {"gameId": 12, "teamA": "TCU", "teamB": "Toledo", "winner": "TCU"}
+          {"gameId": 9, "teamA": "Houston", "teamB": "Nebraska", "winner": ""},
+          {"gameId": 10, "teamA": "Wisconsin", "teamB": "Duke", "winner": ""},
+          {"gameId": 11, "teamA": "Texas Tech", "teamB": "Oakland", "winner": ""},
+          {"gameId": 12, "teamA": "Florida", "teamB": "Marquette", "winner": ""}
         ]
       },
       {
         "round": 3,
         "games": [
-          {"gameId": 13, "teamA": "Fla. Atlantic", "teamB": "McNeese St", "winner": "Fla. Atlantic"},
-          {"gameId": 14, "teamA": "Florida", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 13, "teamA": "Houston", "teamB": "Duke", "winner": ""},
+          {"gameId": 14, "teamA": "Texas Tech", "teamB": "Marquette", "winner": ""}
         ]
       },
       {
         "round": 4,
         "games": [
-          {"gameId": 15, "teamA": "Fla. Atlantic", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 15, "teamA": "Duke", "teamB": "Marquette", "winner": ""}
         ]
       }
     ],
@@ -56,36 +56,36 @@
       {
         "round": 1,
         "games": [
-          {"gameId": 1, "teamASeedNum": "1", "teamA": "UCon", "teamBSeedNum": "16","teamB": "Stetson", "winner": "Stetson"},
-          {"gameId": 2, "teamASeedNum": "8", "teamA": "Northwestern", "teamBSeedNum": "9", "teamB": "Oklahoma", "winner": "Stetson"},
-          {"gameId": 3, "teamASeedNum": "5", "teamA": "BYU", "teamBSeedNum": "12", "teamB": "Richmond", "winner": "Stetson"},
-          {"gameId": 4, "teamASeedNum": "4", "teamA": "Auburn", "teamBSeedNum": "13", "teamB": "Samford", "winner": "Stetson"},
-          {"gameId": 5, "teamASeedNum": "6", "teamA": "South Carolina","teamBSeedNum": "11", "teamB": "New Mexico", "winner": "Stetson"},
-          {"gameId": 6, "teamASeedNum": "3", "teamA": "Kansas", "teamBSeedNum": "14", "teamB": "High Point", "winner": "Stetson"},
-          {"gameId": 7, "teamASeedNum": "7", "teamA": "Saint Mary's", "teamBSeedNum": "10", "teamB": "Seton Hall", "winner": "Stetson"},
-          {"gameId": 8, "teamASeedNum": "2", "teamA": "North Carolina", "teamBSeedNum": "15", "teamB": "Quinnipiac", "winner": "Stetson"}
+          {"gameId": 1, "teamASeedNum": "1", "teamA": "UConn", "teamBSeedNum": "16","teamB": "Stetson", "winner": ""},
+          {"gameId": 2, "teamASeedNum": "8", "teamA": "Fla Atlantic", "teamBSeedNum": "9", "teamB": "Northwestern", "winner": ""},
+          {"gameId": 3, "teamASeedNum": "5", "teamA": "San Deigo St", "teamBSeedNum": "12", "teamB": "UAB", "winner": ""},
+          {"gameId": 4, "teamASeedNum": "4", "teamA": "Auburn", "teamBSeedNum": "13", "teamB": "Yale", "winner": ""},
+          {"gameId": 5, "teamASeedNum": "6", "teamA": "BYU","teamBSeedNum": "11", "teamB": "Duquesne", "winner": ""},
+          {"gameId": 6, "teamASeedNum": "3", "teamA": "Illinois", "teamBSeedNum": "14", "teamB": "Morehead St", "winner": ""},
+          {"gameId": 7, "teamASeedNum": "7", "teamA": "Washington St", "teamBSeedNum": "10", "teamB": "Drake", "winner": ""},
+          {"gameId": 8, "teamASeedNum": "2", "teamA": "Iowa St", "teamBSeedNum": "15", "teamB": "South Dakota St", "winner": ""}
         ]
       },
       {
         "round": 2,
         "games": [
-          {"gameId": 9, "teamA": "Houston", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"},
-          {"gameId": 10, "teamA": "McNeese St", "teamB": "Alabama", "winner": "McNeese St"},
-          {"gameId": 11, "teamA": "Florida", "teamB": "Oakland", "winner": "Florida"},
-          {"gameId": 12, "teamA": "TCU", "teamB": "Toledo", "winner": "TCU"}
+          {"gameId": 9, "teamA": "UConn", "teamB": "Northwestern", "winner": ""},
+          {"gameId": 10, "teamA": "San Deigo St", "teamB": "Auburn", "winner": ""},
+          {"gameId": 11, "teamA": "BYU", "teamB": "Illinois", "winner": ""},
+          {"gameId": 12, "teamA": "Drake", "teamB": "Iowa St", "winner": ""}
         ]
       },
       {
         "round": 3,
         "games": [
-          {"gameId": 13, "teamA": "Fla. Atlantic", "teamB": "McNeese St", "winner": "Fla. Atlantic"},
-          {"gameId": 14, "teamA": "Florida", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 13, "teamA": "UConn", "teamB": "San Deigo St", "winner": ""},
+          {"gameId": 14, "teamA": "Illinois", "teamB": "Drake", "winner": ""}
         ]
       },
       {
         "round": 4,
         "games": [
-          {"gameId": 15, "teamA": "Fla. Atlantic", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 15, "teamA": "UConn", "teamB": "Illinois", "winner": ""}
         ]
       }
     ],
@@ -93,36 +93,36 @@
       {
         "round": 1,
         "games": [
-          {"gameId": 1, "teamASeedNum": "1", "teamA": "Purdue", "teamBSeedNum": "16","teamB": "Merimack", "winner": null},
-          {"gameId": 2, "teamASeedNum": "8", "teamA": "Texas Tech", "teamBSeedNum": "9", "teamB": "Bosie St", "winner": null},
-          {"gameId": 3, "teamASeedNum": "5", "teamA": "Clemson", "teamBSeedNum": "12", "teamB": "Princeton ", "winner": null},
-          {"gameId": 4, "teamASeedNum": "4", "teamA": "Ilinois", "teamBSeedNum": "13", "teamB": "Appalachian St", "winner": null},
-          {"gameId": 5, "teamASeedNum": "6", "teamA": "Wisconsin","teamBSeedNum": "11", "teamB": "Indiana St", "winner": null},
-          {"gameId": 6, "teamASeedNum": "3", "teamA": "Marquette", "teamBSeedNum": "14", "teamB": "Vermont", "winner": null},
-          {"gameId": 7, "teamASeedNum": "7", "teamA": "Nevada", "teamBSeedNum": "10", "teamB": "Mississippi St", "winner": null},
-          {"gameId": 8, "teamASeedNum": "2", "teamA": "Iowa State", "teamBSeedNum": "15", "teamB": "Sam Houston", "winner": null}
+          {"gameId": 1, "teamASeedNum": "1", "teamA": "Purdue", "teamBSeedNum": "16","teamB": "Montana/Grambling", "winner": null},
+          {"gameId": 2, "teamASeedNum": "8", "teamA": "Utah St", "teamBSeedNum": "9", "teamB": "TCU", "winner": null},
+          {"gameId": 3, "teamASeedNum": "5", "teamA": "Gonzaga", "teamBSeedNum": "12", "teamB": "McNeese", "winner": null},
+          {"gameId": 4, "teamASeedNum": "4", "teamA": "Kansas", "teamBSeedNum": "13", "teamB": "Samford", "winner": null},
+          {"gameId": 5, "teamASeedNum": "6", "teamA": "South Carolina","teamBSeedNum": "11", "teamB": "Oregon", "winner": null},
+          {"gameId": 6, "teamASeedNum": "3", "teamA": "Creighton", "teamBSeedNum": "14", "teamB": "Akron", "winner": null},
+          {"gameId": 7, "teamASeedNum": "7", "teamA": "Texas", "teamBSeedNum": "10", "teamB": "Virgina/Colorado St", "winner": null},
+          {"gameId": 8, "teamASeedNum": "2", "teamA": "Tennesse", "teamBSeedNum": "15", "teamB": "Saint Peter's", "winner": null}
         ]
       },
       {
         "round": 2,
         "games": [
-          {"gameId": 9, "teamA": "Houston", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"},
-          {"gameId": 10, "teamA": "McNeese St", "teamB": "Alabama", "winner": "McNeese St"},
-          {"gameId": 11, "teamA": "Florida", "teamB": "Oakland", "winner": "Florida"},
-          {"gameId": 12, "teamA": "TCU", "teamB": "Toledo", "winner": "TCU"}
+          {"gameId": 9, "teamA": "Purdue", "teamB": "TCU", "winner": ""},
+          {"gameId": 10, "teamA": "Gonzaga", "teamB": "Kansas", "winner": ""},
+          {"gameId": 11, "teamA": "Oregon", "teamB": "Creighton", "winner": ""},
+          {"gameId": 12, "teamA": "Texas", "teamB": "Tennesse", "winner": ""}
         ]
       },
       {
         "round": 3,
         "games": [
-          {"gameId": 13, "teamA": "Fla. Atlantic", "teamB": "McNeese St", "winner": "Fla. Atlantic"},
-          {"gameId": 14, "teamA": "Florida", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 13, "teamA": "Purdue", "teamB": "Kansas", "winner": ""},
+          {"gameId": 14, "teamA": "Oregon", "teamB": "Texas", "winner": ""}
         ]
       },
       {
         "round": 4,
         "games": [
-          {"gameId": 15, "teamA": "Fla. Atlantic", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 15, "teamA": "Purdue", "teamB": "TCU", "winner": ""}
         ]
       }
     ],
@@ -130,36 +130,36 @@
       {
         "round": 1,
         "games": [
-          {"gameId": 1, "teamASeedNum": "1", "teamA": "Tennessee", "teamBSeedNum": "16","teamB": "Norfolk St", "winner": null},
-          {"gameId": 2, "teamASeedNum": "8", "teamA": "Texas", "teamBSeedNum": "9", "teamB": "Nebraska", "winner": null},
-          {"gameId": 3, "teamASeedNum": "5", "teamA": "San Deigo St", "teamBSeedNum": "12", "teamB": "Grand Canyon", "winner": null},
-          {"gameId": 4, "teamASeedNum": "4", "teamA": "Illinois", "teamBSeedNum": "13", "teamB": "UC Irvine", "winner": null},
-          {"gameId": 5, "teamASeedNum": "6", "teamA": "UathState","teamBSeedNum": "11", "teamB": "Virginia", "winner": null},
+          {"gameId": 1, "teamASeedNum": "1", "teamA": "North Carolina", "teamBSeedNum": "16","teamB": "Howard/Wagner", "winner": null},
+          {"gameId": 2, "teamASeedNum": "8", "teamA": "Mississippi St", "teamBSeedNum": "9", "teamB": "Michigan St", "winner": null},
+          {"gameId": 3, "teamASeedNum": "5", "teamA": "Saint Mary's", "teamBSeedNum": "12", "teamB": "Grand Canyon ", "winner": null},
+          {"gameId": 4, "teamASeedNum": "4", "teamA": "Alabama", "teamBSeedNum": "13", "teamB": "Col of Charleston", "winner": null},
+          {"gameId": 5, "teamASeedNum": "6", "teamA": "Clemson","teamBSeedNum": "11", "teamB": "New Mexico", "winner": null},
           {"gameId": 6, "teamASeedNum": "3", "teamA": "Baylor", "teamBSeedNum": "14", "teamB": "Colgate", "winner": null},
-          {"gameId": 7, "teamASeedNum": "7", "teamA": "Gonzaga", "teamBSeedNum": "10", "teamB": "Colorado St", "winner": null},
-          {"gameId": 8, "teamASeedNum": "2", "teamA": "Arizona", "teamBSeedNum": "15", "teamB": "E Washington", "winner": null}
+          {"gameId": 7, "teamASeedNum": "7", "teamA": "Dayton", "teamBSeedNum": "10", "teamB": "Nevada", "winner": null},
+          {"gameId": 8, "teamASeedNum": "2", "teamA": "Arizona", "teamBSeedNum": "15", "teamB": "Long Beach St", "winner": null}
         ]
       },
       {
         "round": 2,
         "games": [
-          {"gameId": 9, "teamA": "Houston", "teamB": "Fla. Atlantic", "winner": "Fla. Atlantic"},
-          {"gameId": 10, "teamA": "McNeese St", "teamB": "Alabama", "winner": "McNeese St"},
-          {"gameId": 11, "teamA": "Florida", "teamB": "Oakland", "winner": "Florida"},
-          {"gameId": 12, "teamA": "TCU", "teamB": "Toledo", "winner": "TCU"}
+          {"gameId": 9, "teamA": "North Carolina", "teamB": "Mississippi St", "winner": ""},
+          {"gameId": 10, "teamA": "Saint Mary's", "teamB": "Alabama", "winner": ""},
+          {"gameId": 11, "teamA": "Clemson", "teamB": "Colgate", "winner": ""},
+          {"gameId": 12, "teamA": "Dayton", "teamB": "Arizona", "winner": ""}
         ]
       },
       {
         "round": 3,
         "games": [
-          {"gameId": 13, "teamA": "Fla. Atlantic", "teamB": "McNeese St", "winner": "Fla. Atlantic"},
-          {"gameId": 14, "teamA": "Florida", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 13, "teamA": "North Carolina", "teamB": "Alabama", "winner": ""},
+          {"gameId": 14, "teamA": "Clemson", "teamB": "Arizona", "winner": ""}
         ]
       },
       {
         "round": 4,
         "games": [
-          {"gameId": 15, "teamA": "Fla. Atlantic", "teamB": "TCU", "winner": "TCU"}
+          {"gameId": 15, "teamA": "Alabama", "teamB": "Arizona", "winner": "TCU"}
         ]
       }
     ]
